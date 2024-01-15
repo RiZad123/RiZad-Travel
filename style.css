@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+/* Navbar Section */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 8rem;
+}
+.navbar img {
+  width: 50px;
+  height: 40px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.navbar ul a {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: #424247;
+}
+
+/* banner Section */
+
+.banner-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("Images/Group1.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  width: 1170px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.banner-img h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+.banner-img p {
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px auto;
+  gap: 10px;
+  background-color: rgba(179, 192, 202, 0.331);
+  width: 60%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+input[type="text"],
+select {
+  width: 25%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+input[type="submit"] {
+  width: 25%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #ff5400;
+  color: #fff;
+  font-size: 0.9rem;
+  font-style: normal;
+  cursor: pointer;
+}
+
+/* Our Tours Section */
+
+.tours {
+  display: flex;
+  margin: 6rem 8rem;
+}
+.disreption {
+  margin: 0 40px 0 0;
+}
+
+.disreption h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.disreption p,
+ul > li {
+  font-size: 1rem;
+  color: rgba(19, 19, 24, 0.7);
+  font-weight: 400;
+  line-height: 2.25rem;
+}
+.btn2 {
+  text-align: center;
+  margin-top: 1rem;
+  width: 150px;
+  height: 45px;
+  border-radius: 5px;
+  background: #ff5400;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+.tour-img {
+  width: 540px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 0rem 2rem;
+  }
+  .right {
+    align-items: center;
+  }
+
+  .navbar ul a {
+    display: none;
+  }
+
+  .navbar img {
+    width: 33px;
+    height: 28px;
+  }
+
+  .nav-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .banner-img {
+    width: 460px;
+    height: 483px;
+    margin: 10px 35px;
+  }
+
+  .banner-img h1 {
+    font-size: 2.2rem;
+  }
+  .banner-img p {
+    font-size: 0.7rem;
+  }
+
+  form {
+    flex-direction: column;
+    margin: 5px auto;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px 10px;
+  }
+  input[type="text"] {
+    width: 90%;
+    padding: 10px 10px;
+    font-size: 0.9rem;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 0.9rem;
+  }
+
+  .tours {
+    flex-direction: column;
+    margin: 3rem 3rem;
+    text-align: start;
+    justify-content: center;
+  }
+
+  .btn2 {
+    margin: 2rem 0;
+  }
+
+  .tour-img img {
+    border: 2px solid red;
+    width: 440px;
+    height: auto;
+  }
+
+
+
+  /* Destination Section */
+
+  .destination{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 85vw;
+    margin: 6rem auto;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}
