@@ -139,6 +139,7 @@ ul > li {
   font-size: 1rem;
   font-weight: 500;
   color: white;
+  cursor: pointer;
 }
 .tour-img {
   width: 540px;
@@ -168,6 +169,7 @@ ul > li {
   display: flex;
   gap: 20px;
   padding: 10px;
+  cursor: pointer;
 }
 
 
@@ -204,12 +206,14 @@ ul > li {
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
   padding: 25px;
+  cursor: pointer;
 }
 .choose-1 .world {
   border-radius: 16px;
   border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
   padding: 25px;
+  cursor: pointer;
 }
 .choose-2 {
   display: inline-block;
@@ -221,6 +225,7 @@ ul > li {
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
   padding: 25px;
+  cursor: pointer;
 }
 
 /* parfect-place Section */
@@ -247,6 +252,7 @@ ul > li {
   font-size: 1rem;
   font-weight: 500;
   color: white;
+  cursor: pointer;
 }
 
 
@@ -268,6 +274,7 @@ ul > li {
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .review img{
@@ -337,6 +344,7 @@ ul > li {
   justify-content: center;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 
 .save h5 {
